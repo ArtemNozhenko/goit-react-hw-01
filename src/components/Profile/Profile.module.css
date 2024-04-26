@@ -1,0 +1,55 @@
+.container {
+  width: 550px;
+  height: 600px;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.images {
+  width: 200px;
+  background-color: rgb(48, 45, 45);
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.textName {
+  font-size: 46px;
+  font-weight: 700;
+  color: black;
+}
+
+.text {
+  font-size: 36px;
+  font-weight: 500;
+  color: #413e3e;
+}
+
+.stats {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 120px;
+  gap: 8px;
+  font-size: 26px;
+  font-weight: 500;
+  color: #0f0f0f;
+  border: 1px solid rgb(54, 52, 52);
+  background-color: #afaaaa;
+}
