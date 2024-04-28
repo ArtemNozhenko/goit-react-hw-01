@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
+}
+
+.active {
+  color: green;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.retired {
+  color: red;
+  font-size: 20px;
+  font-weight: 400;
+}
